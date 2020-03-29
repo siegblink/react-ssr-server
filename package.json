@@ -1,0 +1,46 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:server": "nodemon --watch build --exec \"node build/bundle.js\"",
+    "dev:build-server": "webpack --config webpack.server.js --watch",
+    "dev:build-client": "webpack --config webpack.client.js --watch"
+  },
+  "keywords": [],
+  "author": "Sieg C. Balona <siegblink@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-react": "7.9.4",
+    "axios": "0.19.2",
+    "babel-loader": "8.1.0",
+    "compression": "1.7.4",
+    "concurrently": "5.1.0",
+    "express": "4.17.1",
+    "express-http-proxy": "1.6.0",
+    "lodash": "4.17.15",
+    "nodemon": "2.0.2",
+    "npm-run-all": "4.1.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-helmet": "5.2.1",
+    "react-redux": "7.2.0",
+    "react-router-config": "5.1.1",
+    "react-router-dom": "5.1.2",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0",
+    "serialize-javascript": "3.0.0",
+    "webpack": "4.42.1",
+    "webpack-dev-server": "3.10.3",
+    "webpack-merge": "4.2.2",
+    "webpack-node-externals": "1.7.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "3.3.11"
+  }
+}
