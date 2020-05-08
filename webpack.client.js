@@ -8,8 +8,8 @@ const config = {
 
   // Tell webpack where to put the output file
   output: {
-    filename: 'bundle.js',
     path: path.resolve(__dirname, 'public'),
+    filename: 'bundle.js',
   },
 }
 
