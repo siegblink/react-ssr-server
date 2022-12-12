@@ -22,7 +22,7 @@
     "compression": "1.7.4",
     "concurrently": "5.1.0",
     "core-js": "3.6.5",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "express-http-proxy": "1.6.0",
     "lodash": "4.17.15",
     "nodemon": "2.0.2",
